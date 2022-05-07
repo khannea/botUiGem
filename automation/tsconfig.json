@@ -1,0 +1,17 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "types": [
+            "node",
+            "webpack-dev-server"
+        ],
+        "lib": [
+            "ES2017",
+            "ScriptHost"
+        ]
+    },
+    "files": [],
+    "include": []
+}
